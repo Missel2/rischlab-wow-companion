@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: RISCHLAB WoW Companion
+## Notes: Local-first companion scaffold (no network, no automation)
+## Version: 0.0.1-dev
+## Author: RISCHLAB contributors
+## SavedVariables: RWCDB
+
+Core.lua

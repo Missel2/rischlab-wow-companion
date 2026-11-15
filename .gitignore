@@ -1,0 +1,27 @@
+# Local/private settings and credentials
+.env
+.env.*
+!.env.example
+*.token
+*.pem
+*.key
+credentials/
+secrets/
+local-config/
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+transcripts.json
+chatlogs/
+screenshots/
+captures/
+WoWChatLog.txt
+SavedVariables/
+*.log
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
