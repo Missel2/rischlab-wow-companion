@@ -22,7 +22,7 @@ test('private-file names are rejected without revealing identifiers', () => {
 
 test('generic secret formats detected without printing secret values', () => {
   assert.equal(auditPublicText('just a synthetic message'), null);
-  assert.ok(auditPublicText('-----BEGIN PRIVATE KEY-----'));
+  assert.ok(auditPublicText(['-----BEGIN', 'PRIVATE KEY-----'].join(' ')));
   assert.ok(auditPublicText('ghp_' + 'A'.repeat(25)));
   assert.ok(auditPublicText('sk-proj-' + 'B'.repeat(25)));
 });
